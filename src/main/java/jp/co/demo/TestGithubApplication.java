@@ -13,7 +13,7 @@ public class TestGithubApplication {
 		SpringApplication.run(TestGithubApplication.class, args);
 	}
 
-	@GetMapping("/3")
+	@RequestMapping("/3")
 	pulic String test() {
 		return "index";
 	}
